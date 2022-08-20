@@ -12,6 +12,11 @@ namespace MovieApp.Entities
         public Genre FavoriteGenre { get; set; }
         public List<Movie> FavoriteMovies { get; set; }
 
+        public User()
+        {
+
+        }
+
         public User(int id, string firstName, string lastName, string userName, string password, Genre favoriteGenre, List<Movie> favoriteMovies)
         {
             Id = id;

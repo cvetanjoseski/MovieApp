@@ -11,14 +11,6 @@ namespace MovieApp.Controllers
     [ApiController]
     public class Movies : ControllerBase
     {
-        [HttpGet("getAllMoviesByIdDto")]
-        public IActionResult GetMovieById([FromQuery] GetMovieByIdDto getMovieById )
-        {
-            Movie movieDb = MovieDatabase.MOVIES.FirstOrDefault(x => x.Id == getMovieById.Id) ;
-
-            if(movieDb == null)
-                return NotFound();
-            return StatusCode(StatusCodes.Status200OK);
-        }        
+              
     }
 }

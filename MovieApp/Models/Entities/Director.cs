@@ -8,6 +8,11 @@ namespace MovieApp.Entities
         public string LastName { get; set; }
         public List<Movie> Movies { get; set; }
 
+        public Director()
+        {
+
+        }
+
         public Director(int id, string firstName, string lastName)        {
             Id = id;
             FirstName = firstName;
