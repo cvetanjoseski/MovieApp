@@ -4,7 +4,7 @@ namespace MovieApp.Database
 {
     public static class MovieDatabase
     {
-    /*    public static List<Director> DIRECTORS = new List<Director>()
+        public static List<Director> DIRECTORS = new List<Director>()
         {
             new Director(1,"Stanley","Kubrick"),
             new Director(2,"Steven","Spielberg"),
@@ -30,6 +30,6 @@ namespace MovieApp.Database
             new User(2,"Stefan","Stefanoski","stefans","12348765",Enums.Genre.Romance,new List<Movie> {MOVIES.First()}),
             new User(3,"David","Davidoski","davidd","12348765", Enums.Genre.Action,MOVIES),
             new User(4,"Pece","Peceski","pecep","12348765",Enums.Genre.Drama,MOVIES)
-        };*/
+        };
     }
 }

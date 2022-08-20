@@ -11,9 +11,14 @@ namespace MovieApp.Entities
         public Genre Genre { get; set; }
         public Director Director { get; set; }
 
-        public Movie()
+        public Movie(int id, string title, string description, DateTime year, Genre genre, Director director)
         {
-
+            Id = id;
+            Title = title;
+            Description = description;
+            Year = year;
+            Genre = genre;
+            Director = director;
         }
     }
 }
